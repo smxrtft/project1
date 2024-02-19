@@ -1,0 +1,14 @@
+
+.navbar-nav {
+    text-transform: uppercase;
+}
+
+.navbar-nav li a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    transition: all 0.5s;
+    transform: scale(0);
+}
